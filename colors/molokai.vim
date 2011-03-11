@@ -55,8 +55,8 @@ hi   FoldColumn       guifg=#5b81a8   guibg=#000000
 hi   Folded           guifg=#5b81a8   guibg=#000000
 hi   Function         guifg=#87ff00
 hi   Identifier       guifg=#f48100
-hi   Ignore           guifg=#7b7b7c   guibg=#080808
-hi   IncSearch        guifg=#87ff00   guibg=#080808
+hi   Ignore           guifg=#7b7b7c   guibg=#121212
+hi   IncSearch        guifg=#87ff00   guibg=#121212
 
 hi   Keyword          guifg=#d7005f   gui=bold
 hi   Label            guifg=#fcfeae   gui=none
@@ -72,7 +72,7 @@ hi   Operator         guifg=#d7005f
 "    complete         menu
 hi   Pmenu            guifg=#5fd7ff   guibg=#000000
 hi   PmenuSel         guibg=#7b7b7c
-hi   PmenuSbar        guibg=#080808
+hi   PmenuSbar        guibg=#121212
 hi   PmenuThumb       guifg=#5fd7ff
 
 hi   PreCondit        guifg=#87ff00   gui=bold
@@ -85,29 +85,29 @@ hi   Search           guifg=#080808   guibg=#d7005f
 hi   SignColumn       guifg=#87ff00   guibg=#252525
 hi   SpecialChar      guifg=#d7005f   gui=bold
 hi   SpecialComment   guifg=#888685   gui=bold
-hi   Special          guifg=#5fd7ff   guibg=#080808
+hi   Special          guifg=#5fd7ff   guibg=#121212
 hi   SpecialKey       guifg=#888685
 
 hi   Statement        guifg=#d7005f   gui=bold
 hi   StatusLine       guifg=#1c1c1c   guibg=#d7d3d2
-hi   StatusLineNC     guifg=#7b7b7c   guibg=#080808
+hi   StatusLineNC     guifg=#7b7b7c   guibg=#121212
 hi   StorageClass     guifg=#f48100
 hi   Structure        guifg=#5fd7ff
 hi   Tag              guifg=#d7005f
 hi   Title            guifg=#d75f00
-hi   Todo             guifg=#fcf7f5   guibg=#080808   gui=bold
+hi   Todo             guifg=#fcf7f5   guibg=#121212   gui=bold
 
 hi   Typedef          guifg=#5fd7ff
 hi   Type             guifg=#5fd7ff   gui=none
 hi   Underlined       guifg=#7b7b7c   gui=underline
 
-hi   VertSplit        guifg=#7b7b7c   guibg=#080808   gui=bold
+hi   VertSplit        guifg=#7b7b7c   guibg=#121212   gui=bold
 hi   VisualNOS        guibg=#434242
 hi   Visual           guibg=#252525
 hi   WarningMsg       guifg=#fcf7f5   guibg=#434242   gui=bold
 hi   WildMenu         guifg=#5fd7ff   guibg=#000000
 
-hi   Normal           guifg=#c7c7c7   guibg=#080808
+hi   Normal           guifg=#c7c7c7   guibg=#121212
 hi   Comment          guifg=#585859
 hi   CursorLine       guibg=#1c1c1c   gui=none
 hi   CursorColumn     guibg=#1c1c1c
@@ -147,8 +147,8 @@ if &t_Co > 255
   hi   Folded           ctermfg=67    ctermbg=16
   hi   Function         ctermfg=118
   hi   Identifier       ctermfg=208
-  hi   Ignore           ctermfg=244   ctermbg=232
-  hi   IncSearch        ctermfg=118   ctermbg=232
+  hi   Ignore           ctermfg=244   ctermbg=233
+  hi   IncSearch        ctermfg=118   ctermbg=233
 
   hi   Keyword          ctermfg=161   cterm=bold
   hi   Label            ctermfg=229   cterm=none
@@ -164,7 +164,7 @@ if &t_Co > 255
   "    complete         menu
   hi   Pmenu            ctermfg=81    ctermbg=16
   hi   PmenuSel         ctermbg=244
-  hi   PmenuSbar        ctermbg=232
+  hi   PmenuSbar        ctermbg=233
   hi   PmenuThumb       ctermfg=81
 
   hi   PreCondit        ctermfg=118   cterm=bold
@@ -177,34 +177,34 @@ if &t_Co > 255
   hi   SignColumn       ctermfg=118   ctermbg=235
   hi   SpecialChar      ctermfg=161   cterm=bold
   hi   SpecialComment   ctermfg=245   cterm=bold
-  hi   Special          ctermfg=81    ctermbg=232
+  hi   Special          ctermfg=81    ctermbg=233
   hi   SpecialKey       ctermfg=245
 
   hi   Statement        ctermfg=161   cterm=bold
   hi   StatusLine       ctermfg=234   ctermbg=253
-  hi   StatusLineNC     ctermfg=244   ctermbg=232
+  hi   StatusLineNC     ctermfg=244   ctermbg=233
   hi   StorageClass     ctermfg=208
   hi   Structure        ctermfg=81
   hi   Tag              ctermfg=161
   hi   Title            ctermfg=166
-  hi   Todo             ctermfg=231   ctermbg=232       cterm=bold
+  hi   Todo             ctermfg=231   ctermbg=233       cterm=bold
 
   hi   Typedef          ctermfg=81
   hi   Type             ctermfg=81    cterm=none
   hi   Underlined       ctermfg=244   cterm=underline
 
-  hi   VertSplit        ctermfg=244   ctermbg=232       cterm=bold
+  hi   VertSplit        ctermfg=244   ctermbg=233       cterm=bold
   hi   VisualNOS        ctermbg=238
   hi   Visual           ctermbg=235
   hi   WarningMsg       ctermfg=231   ctermbg=238       cterm=bold
   hi   WildMenu         ctermfg=81    ctermbg=16
 
-  hi   Normal           ctermfg=252   ctermbg=232
+  hi   Normal           ctermfg=252   ctermbg=233
   hi   Comment          ctermfg=59
   hi   CursorLine       ctermbg=234   cterm=none
   hi   CursorColumn     ctermbg=234
   hi   LineNr           ctermfg=250   ctermbg=234
-  hi   NonText          ctermfg=250   ctermbg=232
+  hi   NonText          ctermfg=250   ctermbg=234
 
   hi   TabLine          ctermbg=234   ctermfg=230       cterm=none
   hi   TabLineFill      ctermbg=234   ctermfg=230       cterm=none
