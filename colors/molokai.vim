@@ -181,8 +181,8 @@ if &t_Co > 255
   hi   SpecialKey       ctermfg=245
 
   hi   Statement        ctermfg=161   cterm=bold
-  hi   StatusLine       ctermfg=244   ctermbg=233
-  hi   StatusLineNC     ctermfg=234   ctermbg=253
+  hi   StatusLine       ctermfg=235   ctermbg=250
+  hi   StatusLineNC     ctermfg=235   ctermbg=240
   hi   StorageClass     ctermfg=208
   hi   Structure        ctermfg=81
   hi   Tag              ctermfg=161
@@ -196,8 +196,8 @@ if &t_Co > 255
   hi   VertSplit        ctermfg=244   ctermbg=233       cterm=bold
   hi   VisualNOS        ctermbg=238
   hi   Visual           ctermbg=235
-  hi   WarningMsg       ctermfg=231   ctermbg=238       cterm=bold
-  hi   WildMenu         ctermfg=81    ctermbg=234
+  hi   WarningMsg       ctermfg=231   ctermbg=233       cterm=bold
+  hi   WildMenu         ctermfg=118   ctermbg=233
 
   hi   Normal           ctermfg=252   ctermbg=233
   hi   Comment          ctermfg=59
